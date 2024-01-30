@@ -76,7 +76,7 @@ app.use('/api/sessions', sessionRouter)
 async function dataBase() {
     try {
         //await mongoose.connect('mongodb+srv://oliveiradiogo00:*********************@cluster0.pgeuig7.mongodb.net/?retryWrites=true&w=majority',{dbName:'carts'})
-        await mongoose.connect('mongodb+srv://oliveiradiogo00:z2xGXgqIUN2fgTzo@cluster0.pgeuig7.mongodb.net/?retryWrites=true&w=majority', { dbName: 'ecommerce' })
+        await mongoose.connect('mongodb+srv://oliveiradiogo00:************@cluster0.pgeuig7.mongodb.net/?retryWrites=true&w=majority', { dbName: 'ecommerce' })
         console.log('DB online')
     } catch (error) {
         console.log(error.message)
